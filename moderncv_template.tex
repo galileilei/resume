@@ -9,8 +9,8 @@
 \documentclass[11pt,a4paper,sans]{moderncv}   % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
 
 % moderncv themes
-\moderncvstyle{casual}                        % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
-\moderncvcolor{blue}                          % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+\moderncvstyle{classic}                        % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{grey}                          % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
 %\renewcommand{\familydefault}{\sfdefault}    % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
 %\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
 
@@ -24,18 +24,18 @@
 %\setlength{\makecvtitlenamewidth}{10cm}      % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
 
 % personal data
-\firstname{John}
-\familyname{Doe}
-\title{Resumé title (optional)}               % optional, remove the line if not wanted
-\address{street and number}{postcode city}    % optional, remove the line if not wanted
-\mobile{+1~(234)~567~890}                     % optional, remove the line if not wanted
-\phone{+2~(345)~678~901}                      % optional, remove the line if not wanted
-\fax{+3~(456)~789~012}                        % optional, remove the line if not wanted
-\email{john@doe.org}                          % optional, remove the line if not wanted
-\homepage{www.johndoe.com}                    % optional, remove the line if not wanted
-\extrainfo{additional information}            % optional, remove the line if not wanted
-\photo[64pt][0.4pt]{picture}                  % '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file; optional, remove the line if not wanted
-\quote{Some quote (optional)}                 % optional, remove the line if not wanted
+\firstname{Leslie}
+\familyname{Lei}
+%\title{Resumé title (optional)}               % optional, remove the line if not wanted
+\address{Wannamaker 334 Campus Drive 1340}{27708 Durham}    % optional, remove the line if not wanted
+\mobile{+1~(919)~597~9041}                     % optional, remove the line if not wanted
+%\phone{+2~(345)~678~901}                      % optional, remove the line if not wanted
+%\fax{+3~(456)~789~012}                        % optional, remove the line if not wanted
+\email{ll133@duke.edu}                          % optional, remove the line if not wanted
+%\homepage{linked in profile}                    % optional, remove the line if not wanted
+\extrainfo{linked in profile}            % optional, remove the line if not wanted
+%\photo[64pt][0.4pt]{picture}                  % '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file; optional, remove the line if not wanted
+%\quote{Some quote (optional)}                 % optional, remove the line if not wanted
 
 % to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
 %\makeatletter
@@ -54,17 +54,12 @@
 \makecvtitle
 
 \section{Education}
-\cventry{year--year}{Degree}{Institution}{City}{\textit{Grade}}{Description}  % arguments 3 to 6 can be left empty
-\cventry{year--year}{Degree}{Institution}{City}{\textit{Grade}}{Description}
-
-\section{Master thesis}
-\cvitem{title}{\emph{Title}}
-\cvitem{supervisors}{Supervisors}
-\cvitem{description}{Short thesis abstract}
+\cventry{Expected May 2015}{B.S. in Mathematics and Economics}{Duke University}{Durham}{\textit{3.92/4.00}}{Concentration in Finance with relevant courseworks: Stochastic Process}  % arguments 3 to 6 can be left empty
+\cventry{2008}{High School Diploma}{NUS High School of Mathematics and Sciences}{Singapore}{\textit{4.00/5.00}}{Major in Physics and Chemistry with Honor in Mathematics}
 
 \section{Experience}
-\subsection{Vocational}
-\cventry{year--year}{Job title}{Employer}{City}{}{General description no longer than 1--2 lines.\newline{}%
+\subsection{Work}
+\cventry{Summer 2012}{Research Assistant under Professor Christopher Timmins}{Econ Department}{Durham}{???}{Assisted in translating econometric numerical procedures from Fortran to R\newline{}%
 Detailed achievements:%
 \begin{itemize}%
 \item Achievement 1;
@@ -81,19 +76,29 @@ Detailed achievements:%
   \end{itemize}
 \item Achievement 3.
 \end{itemize}}
-\cventry{year--year}{Job title}{Employer}{City}{}{Description line 1\newline{}Description line 2}
+\cventry{Spring 2012}{Tutor}{Maths Department, Duke University}{Durham}{???}{See clark Bray's email\newline{}Description line 2}
+\cventry{Spring 2011--Summer 2011}{Observer B}{Singapore IMO Team}{Singapore}{}{assisted in training the team for the International Mathematical Olympiad to achieve overall thrid place\newline{}Description line 2}
 \subsection{Miscellaneous}
-\cventry{year--year}{Job title}{Employer}{City}{}{Description}
+\cventry{2009--2010}{Full-Time National Serviceman}{Singapore Armed Force}{Singapore}{}{Mandatory conscription for male citizens before tertiary institution}
+
+\section{Awards}
+\cventry{2012}{Math Department Freshmen Award}{}{}{}{}
+\cventry{2012}{Mathematical Modeling Contest Honrable Mention}{}{}{}{}
+%\cventry{2011}{Putnam top 500}{}{}{}{}
+\cventry{2008}{International Mathematical Olmypiad, Silver}{}{}{}{}
+\cventry{2008}{Asian Physics Olympiad, Honrable Mention}{}{}{}{}
+\cventry{2007}{International Mathematical Olympiad, Bronze}{}{}{}{}
+
 
 \section{Languages}
-\cvitemwithcomment{Language 1}{Skill level}{Comment}
-\cvitemwithcomment{Language 2}{Skill level}{Comment}
-\cvitemwithcomment{Language 3}{Skill level}{Comment}
+\cvitemwithcomment{English}{Proficient}{Second Language}
+\cvitemwithcomment{Chinese}{Proficient}{Mother Tongue}
+%\cvitemwithcomment{Language 3}{Skill level}{Comment}
 
 \section{Computer skills}
-\cvdoubleitem{category 1}{XXX, YYY, ZZZ}{category 4}{XXX, YYY, ZZZ}
-\cvdoubleitem{category 2}{XXX, YYY, ZZZ}{category 5}{XXX, YYY, ZZZ}
-\cvdoubleitem{category 3}{XXX, YYY, ZZZ}{category 6}{XXX, YYY, ZZZ}
+\cvdoubleitem{Familiar}{C, \Latex}{Passable}{XXX, YYY, ZZZ}
+\cvdoubleitem{Good}{Python, R, Mathematica}{Learning}{XXX, YYY, ZZZ}
+%\cvdoubleitem{category 3}{XXX, YYY, ZZZ}{category 6}{XXX, YYY, ZZZ}
 
 \section{Interests}
 \cvitem{hobby 1}{Description}
