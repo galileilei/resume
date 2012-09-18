@@ -17,7 +17,7 @@
 % character encoding
 %\usepackage[utf8]{inputenc}                  % if you are not using xelatex ou lualatex, replace by the encoding you are using
 %\usepackage{CJKutf8}                         % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
-\usepackage{comment}
+\usepackage{comment}					%if you want to comment out a large section of tex
 
 % adjust the page margins
 \usepackage[scale=0.86]{geometry}
@@ -58,10 +58,15 @@
 \cventry{May 2015}{B.S. in Mathematics and Economics}{Duke University}{Durham}{\textit{3.92/4.00}}{Concentration in Financial Economics.
 	\begin{itemize}
 		\item Completed two graduate mathematics courses in freshmen year.
-		\item Currently study Applied Stochastic Process, Introduction to High Dimensional Data Analysis, Representation Theory and Real Analysis.
+		\item Currently study Applied Stochastic Process, Introduction to High Dimensional Data Analysis, Representation Theory and History of International Monetary and Financial Crisis.
 	\end{itemize}
 }  % arguments 3 to 6 can be left empty
-\cventry{Graduated 2008}{High School Diploma with Distinction}{NUS High School}{Singapore}{\textit{4.00/5.00}}{Honor in Mathematics and Physics with major in Chemistry}
+\cventry{Graduated 2008}{High School Diploma with Distinction}{NUS High School}{Singapore}{\textit{4.00/5.00}}{Honor in Mathematics and Physics with major in Chemistry
+	\begin{itemize}
+		\item SAT Reading: 730, Mathematics: 800, Writing: 700
+		\item 5 in AP Calculus BC, Statistics, Physics B, Physics C and Chemistry
+	\end{itemize}
+}
 
 \section{Experience}
 \cventry{Summer 2012}{Research Assistant/Computer Programmer}{Economics Department, Duke University}{Durham}{}{Assisted professor Christopher Timmins on translating econometric numerical procedures from Fortran to R.
@@ -72,10 +77,7 @@
 	\end{itemize}
 }
 
-
 \cventry{2012}{Tutor}{Mathematics Department, Duke University}{Durham}{}{Mentored student in Linear Algebra and Multivariate Calculus and performed grading task in Problem Solving Seminar.}
-
-%\newline{}%
 
 \cventry{2011}{Observer B}{Singapore IMO Team}{Singapore}{}{Assisted in training the team for the International Mathematical Olympiad to achieve overall third place.
 	\begin{itemize}
@@ -85,19 +87,27 @@
 }
 
 \subsection{Miscellaneous}
+
 \cventry{2009--2010}{Full-Time National Serviceman}{Singapore Armed Force}{Singapore}{}{Mandatory conscription for all male citizens before entering tertiary institution}
 
 \section{Honors/Awards}
+
 \cventry{2013}{Dean's List with Distinction}{}{}{}{Awarded to the top ten percentile in the class of 2015 for spring term 2012 at Duke.}
+
 \cventry{2012}{Freshmen Julia Dale Prize in Mathematics}{}{}{}{Awarded to selected three Duke freshmen in the class of 2015.}
+
 \cventry{2012}{Mathematical Contest in Modeling, Meritorious}{}{}{}{Awarded to 409 teams out of 3697 worldwide. 
 	\begin{itemize}
 		\item Modeled a scheduling problem with constraints as an equivalent form of Traveling Salesman Problem.
 	\end{itemize}
 }
+
 %\cventry{2011}{Putnam top 500}{}{}{}{}
+
 \cventry{2008}{International Mathematical Olympiad, Silver}{}{}{}{One of the six students representing Singapore. Ranked 127 out of 535 worldwide.}
+
 \cventry{2008}{Asian Physics Olympiad, Honorable Mention}{}{}{}{One of the seven students representing Singapore.}
+
 \cventry{2007}{International Mathematical Olympiad, Bronze}{}{}{}{One of the six students representing Singapore. Ranked 226 out of 520 worldwide.}
 
 
@@ -110,43 +120,43 @@
 \section{Skills}
 \cvitemwithcomment{Language}{Chinese}{Native Speaker}
 \subsection{Computer Skills}
-\cvdoubleitem{Knowledgeable}{C, \LaTeX{}, R}{Good}{Python, Excel, Mathematica}
+\cvdoubleitem{Knowledgeable}{C, \LaTeX{}, R}{Good}{Python, Excel, Mathematica, Git}
 \begin{comment}
-%\cvdoubleitem{Good}{Python, R, Mathematica}{Learning}{XXX, YYY, ZZZ}
-%\cvdoubleitem{category 3}{XXX, YYY, ZZZ}{category 6}{XXX, YYY, ZZZ}
+\cvdoubleitem{Good}{Python, R, Mathematica}{Learning}{XXX, YYY, ZZZ}
+\cvdoubleitem{category 3}{XXX, YYY, ZZZ}{category 6}{XXX, YYY, ZZZ}
 
-%\section{Interests}
-%\cvitem{hobby 1}{Description}
-%\cvitem{hobby 2}{Description}
-%\cvitem{hobby 3}{Description}
+\section{Interests}
+\cvitem{hobby 1}{Description}
+\cvitem{hobby 2}{Description}
+\cvitem{hobby 3}{Description}
 
-%\section{Extra 1}
-%\cvlistitem{Item 1}
-%\cvlistitem{Item 2}
-%\cvlistitem{Item 3}
+\section{Extra 1}
+\cvlistitem{Item 1}
+\cvlistitem{Item 2}
+\cvlistitem{Item 3}
 
-%\renewcommand{\listitemsymbol}{-~}            % change the symbol for lists
+\renewcommand{\listitemsymbol}{-~}            % change the symbol for lists
 
-%\section{Extra 2}
-%\cvlistdoubleitem{Item 1}{Item 4}
-%\cvlistdoubleitem{Item 2}{Item 5\cite{book1}}
-%\cvlistdoubleitem{Item 3}{}
+\section{Extra 2}
+\cvlistdoubleitem{Item 1}{Item 4}
+\cvlistdoubleitem{Item 2}{Item 5\cite{book1}}
+\cvlistdoubleitem{Item 3}{}
 
 % Publications from a BibTeX file without multibib
 %  for numerical labels: \renewcommand{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
 %  to redefine the heading string ("Publications"): \renewcommand{\refname}{Articles}
-%\nocite{*}
-%\bibliographystyle{plain}
-%\bibliography{publications}                   % 'publications' is the name of a BibTeX file
+\nocite{*}
+\bibliographystyle{plain}
+\bibliography{publications}                   % 'publications' is the name of a BibTeX file
 
 % Publications from a BibTeX file using the multibib package
-%\section{Publications}
-%\nocitebook{book1,book2}
-%\bibliographystylebook{plain}
-%\bibliographybook{publications}              % 'publications' is the name of a BibTeX file
-%\nocitemisc{misc1,misc2,misc3}
-%\bibliographystylemisc{plain}
-%\bibliographymisc{publications}              % 'publications' is the name of a BibTeX file
+\section{Publications}
+\nocitebook{book1,book2}
+\bibliographystylebook{plain}
+\bibliographybook{publications}              % 'publications' is the name of a BibTeX file
+\nocitemisc{misc1,misc2,misc3}
+\bibliographystylemisc{plain}
+\bibliographymisc{publications}              % 'publications' is the name of a BibTeX file
 
 
 \clearpage
@@ -171,6 +181,7 @@ Albert Einstein discovered that $e=mc^2$ in 1905.
 
 \makeletterclosing
 \end{comment}
+
 %\clearpage\end{CJK*}                         % if you are typesetting your resume in Chinese using CJK; the \clearpage is required for fancyhdr to work correctly with CJK, though it kills the page numbering by making \lastpage undefined
 \end{document}
 
