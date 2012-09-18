@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *.aux
 *.bbl
 *.blg
@@ -25,3 +26,32 @@
 *.maf
 *.mtc
 *.mtc0
+=======
+*.aux
+*.bbl
+*.blg
+*.dvi
+*.fdb_latexmk
+*.glg
+*.glo
+*.gls
+*.idx
+*.ilg
+*.ind
+*.ist
+*.lof
+*.log
+*.lot
+*.nav
+*.nlo
+*.out
+*.pdfsync
+*.ps
+*.snm
+*.synctex.gz
+*.toc
+*.vrb
+*.maf
+*.mtc
+*.mtc0
+>>>>>>> 1d08c6dab1a70891b93de22a442eb47e45cf57bc
